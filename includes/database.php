@@ -2,10 +2,10 @@
 
 class Database
 {
-  private $servername = "localhost";
-  private $username = "root";
+  private $servername = "";
+  private $username = "";
   private $password = "";
-  private $dbname = "bookingdata";
+  private $dbname = "";
   private $mysqli;
 
   public function __construct()
